@@ -8,7 +8,7 @@
             "type": "process",
             "command": "make",
             "windows": {
-                "command": "mingw32-make.exe",
+                "command": "make.exe",
                 "args":[
                     "CXXFLAGS=-Wno-shadow -w",
                     "-j4"
@@ -40,7 +40,7 @@
             "type": "process",
             "command": "make",
             "windows": {
-                "command": "mingw32-make.exe",
+                "command": "make.exe",
                 "args": [
                     "CXXFLAGS=-Wno-shadow -w",
                     "-j4",
@@ -71,7 +71,7 @@
             "type": "process",
             "command": "make",
             "windows": {
-                "command": "mingw32-make.exe",
+                "command": "make.exe",
                 "args": [
                     "clean"
                 ],
